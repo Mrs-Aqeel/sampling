@@ -38,40 +38,135 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 # Your Changes
 
-## Part A - Survey Design: 
+## Part A - Survey Design: The Relationship Between Music Taste and Age
 
-The number of your chosen topic: `#`
+The number of your chosen topic: "# 3"
 
 Describe the purpose of your survey:
-```
+``The purpose of this survey is to examine how music taste evolves with age and how different age groups perceive popular music. The study will compare individual music preferences over time and across different age groups to determine the influence of age on musical taste.
+`
 write your answer here...
-```
-
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
+
+Target Population: Individuals aged 18 and older from various age groups.
+
+Sampling Frame: University students, alumni, and members of the general public recruited through social media, university mailing lists, and community forums.
+
+Sampling Units: Individual participants who voluntarily complete the survey.
+
+Sampling Strategy: Stratified random sampling to ensure balanced representation across different age groups (e.g., 18-24, 25-34, 35-44, etc.)
+
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your age group?
+18-24
+25-34
+35-44
+45-54
+55-64
+65+
+
+2. How would you describe your current music taste? (Select all that apply)
+Pop
+Rock
+Hip-Hop/Rap
+Classical
+Jazz/Blues
+Country
+Electronic/Dance
+Other (please specify)
+
+3. Has your music taste changed significantly over the years? (Yes/No)
+
+4. If yes, what factors do you think influenced this change?
+
+5. How often do you listen to popular music released in the past five years?
+Daily
+A few times a week
+A few times a month
+Rarely
+Never
+
+6. How do you feel about today’s popular music compared to when you were younger?
+I enjoy it more now
+I enjoy it about the same
+I enjoy it less now
+I never liked popular music
+
+7. Do you believe nostalgia plays a role in your music preferences? (Yes/No)
+
+8. What decade of music do you feel most connected to?
+2020s
+2010s
+2000s
+1990s
+1980s
+1970s or earlier
+
+9. In your opinion, what makes music from a particular time period more appealing to you? 
+
+10. Any additional thoughts on how age has influenced your music taste?
 ```
 
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
+The Canadian General Social Survey (GSS) on Giving, Volunteering, and Participating, 2018 (Cycle 33), conducted by Statistics Canada, offers comprehensive insights into Canadians' contributory behaviors. Below is an overview of its key features:
 
-```
-write your answer here
+Sample Type:
+The survey employed a sample survey with a cross-sectional design, utilizing a stratified sampling method to ensure representation across various demographics. 
+WWW23.STATCAN.GC.CA
+
+Sample Size:
+The 2018 GSS collected data from 16,149 respondents aged 15 and over. 
+WWW150.STATCAN.GC.CA
+
+Target Population:
+Individuals aged 15 years and older residing in private households across Canada's 10 provinces. The survey excluded full-time residents of institutions. 
+WWW150.STATCAN.GC.CA
+
+Sampling Frame:
+The sampling frame combined landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address. 
+WWW23.STATCAN.GC.CA
+
+Survey Mode(s):
+Data were collected through electronic questionnaires and computer-assisted telephone interviewing (CATI). Respondents could choose between English and French. 
+WWW23.STATCAN.GC.CA
+
+Timeline:
+Data collection occurred from September 4, 2018, to December 28, 2018. 
+WWW23.STATCAN.GC.CA
+
+Response Rate:
+Specific response rates for the 2018 cycle are not detailed in the provided sources.
+
+Weights:
+To ensure representativeness, survey data were weighted. Weights were calculated to account for the probability of selection and to adjust for non-response, aligning the sample with the broader Canadian population. 
+WWW150.STATCAN.GC.CA
+
+Data Processing:
+Data underwent rigorous processing, including validation checks and editing, to ensure accuracy and consistency. This process involved verifying responses and rectifying inconsistencies. 
+WWW150.STATCAN.GC.CA
+
+Cleaning, Imputation, etc.:
+While specific imputation methods for missing data are not detailed in the provided sources, standard practices likely involved techniques to handle non-responses and ensure data completeness.
+
+Sources of Error:
+Potential sources of error include sampling error, non-sampling error (such as measurement errors or data processing mistakes), and non-response bias. Efforts were made to minimize these through careful survey design and implementation. 
+WWW150.STATCAN.GC.CA
+
+Limitations, Known Biases, etc.:
+The 2018 GSS introduced an Internet response option for the first time, which may affect comparability with previous cycles. Changes in survey methodology, such as the introduction of an electronic questionnaire, may have impacted estimates, making direct comparisons with previous iterations inappropriate. 
+WWW23.STATCAN.GC.CA
+
+Link to Documentation and Additional Sources:
+Comprehensive documentation, including the Public Use Microdata File (PUMF) and User Guide, is available at: 
+WWW150.STATCAN.GC.CA
+
+Additional information about the survey can be found at: 
+STATCAN.GC.CA
+These resources provide detailed insights into the survey's methodology, data collection processes, and findings.
 ```
 
 ## Rubric
