@@ -59,12 +59,10 @@ python whitby_covid_tracing.py
 
 # Author: YOUR NAME
 Gulrukh Aqeel
-
 Please write your explanation here...
 To ensure that whitby_covid_tracing.py produces the same output every time it runs, I modified the script by adding a fixed random seed at the beginning.
 `import random
 import numpy as np
-
 # Set seed for reproducibility
 random.seed(42)
 np.random.seed(42)
@@ -74,7 +72,6 @@ Effect on Reproducibility
 Before adding the seed, running the script multiple times produced different results due to the randomness in sampling. After setting the seed, the output (graphs, statistics, and distributions) remained identical across multiple runs.
 
 This change does not alter the logic or accuracy of the simulation but ensures that results can be replicated and compared reliably.
-
 
 
 ## Criteria
