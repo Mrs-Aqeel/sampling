@@ -73,7 +73,6 @@ Before adding the seed, running the script multiple times produced different res
 
 This change does not alter the logic or accuracy of the simulation but ensures that results can be replicated and compared reliably.
 
-
 ## Criteria
 
 |Criteria|Complete|Incomplete|
