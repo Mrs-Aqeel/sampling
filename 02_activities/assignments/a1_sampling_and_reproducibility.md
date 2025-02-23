@@ -59,12 +59,63 @@ python whitby_covid_tracing.py
 
 # Author: YOUR NAME
 Gulrukh Aqeel
-
 Please write your explanation here...
+Description of Sampling Steps
+
+The sampling process follows multiple steps, each with specific Python functions, sample sizes, and underlying distributions:
+
+Step 1: Setting Up the DataFrame
+
+Function: pandas.DataFrame()
+
+Purpose: Creates a structured dataset representing individuals and their attributes.
+
+Sampling Frame: The entire simulated population.
+
+Step 2: Infecting a Random Subset of Individuals
+
+Function: random.sample() or numpy.random.choice()
+
+Sample Size: A small fraction of the total population.
+
+Sampling Frame: The entire population.
+
+Distribution: Uniform random selection to model the initial spread.
+
+Step 3: Primary Contact Tracing
+
+Function: random.sample()
+
+Sample Size: Depends on the number of contacts per infected individual.
+
+Sampling Frame: Direct contacts of an infected person.
+
+Distribution: Weighted towards individuals with more social interactions.
+
+Step 4: Secondary Contact Tracing Based on Event Attendance
+
+Function: numpy.random.choice()
+
+Sample Size: Individuals who attended events with an infected person.
+
+Sampling Frame: Population attending specific events.
+
+Distribution: Higher likelihood for those attending multiple events.
+
+Step 5: Calculating Proportions of Infections and Traces
+
+Function: pandas.DataFrame.groupby() and mean()
+
+Purpose: Computes proportions of traced and untraced infections.
+
+Sampling Frame: Entire set of detected cases.
+
+Distribution: Aggregated statistics for analysis.
+
+
 To ensure that whitby_covid_tracing.py produces the same output every time it runs, I modified the script by adding a fixed random seed at the beginning.
 `import random
 import numpy as np
-
 # Set seed for reproducibility
 random.seed(42)
 np.random.seed(42)
@@ -74,8 +125,6 @@ Effect on Reproducibility
 Before adding the seed, running the script multiple times produced different results due to the randomness in sampling. After setting the seed, the output (graphs, statistics, and distributions) remained identical across multiple runs.
 
 This change does not alter the logic or accuracy of the simulation but ensures that results can be replicated and compared reliably.
-
-
 
 ## Criteria
 
